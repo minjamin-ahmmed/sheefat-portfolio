@@ -182,11 +182,32 @@
     text-align: justify;
     margin-right: 100px;
 }
+/* Skill Container Styles */
+.skills-container{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 3rem 8.5rem;
+        background: #030712;
+}
+.skill-text{
+    margin-bottom: 3rem;
+}
 
+.btn-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.skill-text h3{
+    font-size: 1.5rem;
+    color: rgb(143, 154, 175);
+    font-weight: 400;
+    text-align: center;
+}
 
-
-
+.skill-content{
+    gap: 100px;
+}
 
 
 
@@ -205,7 +226,7 @@
 @media screen and (max-width:431px) {
 
 .banner-container{
-    padding: 1rem 1rem;
+    padding: 1rem 2rem 1rem 2rem;
 
 }
 
@@ -257,9 +278,33 @@
     margin-bottom: 3rem;
 }
 
+.about-me-image img{
+    border-radius: 20px;
+}
+
 .about-me-text{
     width: 90%;
 
+}
+
+/* Skills Container */
+
+.skills-container{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.skill-text{
+    margin-top: 2rem;
+}
+.skill-text h3{
+    font-size: 1rem;
+    text-align: start;
+   
+}
+
+.skill-content{
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 
