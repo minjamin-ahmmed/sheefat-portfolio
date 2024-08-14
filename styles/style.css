@@ -23,7 +23,7 @@
 .banner-container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 1rem 8rem;
+    padding: 3rem 8.5rem;
     background: #030712;
 }
 .nav-bar{
@@ -40,6 +40,10 @@
 .nav-items{
     list-style: none;
     gap: 50px;
+}
+
+.bars{
+    display: none;
 }
 
 .nav-items a{
@@ -61,7 +65,7 @@
 }
 
 .des{
-    margin-bottom: 24px;
+    margin-bottom: 2.5rem;
 }
 
 .banner-icons{
@@ -83,14 +87,60 @@
 }
 
 .banner-image{
-    max-width: 300px;
+    max-width: 400px;
+    
 }
 
 .banner-image img{
     width: 100%;
     border-radius: 20px;
     /* border-bottom: 25px solid #374151; */
-    box-shadow: 5px 5px 10px #374151;
-    border: 25px solid #374151;
+    box-shadow: -50px -30px 30px #374151;
+    box-sizing: border-box;
+
+
+}
+
+
+@media screen and (max-width:430px) {
+
+.banner-container{
+    padding: 1rem 1rem;
+
+}
+
+
+   .a{
+    display: none;
+   } 
+
+
+.bars{
+    display: block;
+}
+
+.banner-content{
+    flex-direction: column;
+}
+
+.banner-text{
+    width: 95%;
+}
+
+
+.banner-image{
+    margin-left: 30px;
+    max-width: 350px;
+    
+}
+
+
+
+
+
+
+
+
+
 
 }
