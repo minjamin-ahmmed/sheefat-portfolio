@@ -93,16 +93,16 @@
 
 .banner-image img{
     width: 100%;
-    border-radius: 20px;
     /* border-bottom: 25px solid #374151; */
-    box-shadow: -50px -30px 30px #374151;
+    box-shadow: 50px 30px 30px #374151;
     box-sizing: border-box;
+
 
 
 }
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:431px) {
 
 .banner-container{
     padding: 1rem 1rem;
@@ -120,7 +120,7 @@
 }
 
 .banner-content{
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .banner-text{
@@ -129,8 +129,9 @@
 
 
 .banner-image{
-    margin-left: 30px;
-    max-width: 350px;
+    margin-left: 20%;
+    max-width: 200px;
+    margin-bottom: 50px;
     
 }
 
