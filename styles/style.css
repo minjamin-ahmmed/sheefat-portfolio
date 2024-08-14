@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  Shared Styles */
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
+.description{
+    color: rgb(112, 116, 124);
+    font-size: 1.2rem;
+    font-weight: 400; 
+
+}
+
+.display-flex{
+    display: flex;
+}
+
+
+/* Banner Section Styles */
+.banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem 8rem;
+    background: #030712;
+}
+.nav-bar{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.name h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-items{
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-items a{
+    text-decoration: none;
+}
+
+.banner-content{
+    justify-content: space-between;
+}
+.banner-text{
+    width: 700px;
+    margin-bottom: 100px;
+}
+.banner-text h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.des{
+    margin-bottom: 24px;
+}
+
+.banner-icons{
+    margin-bottom: 70px;
+}
+.banner-icons p{
+    color: rgb(112, 116, 124);
+    font-size: 1.2rem;
+    font-weight: 400; 
+    margin-bottom: 10px;
+
+}
+
+.social-media a{
+    font-size: 2.5rem;
+    color: white;
+    margin-right: 30px;
+
+}
+
+.banner-image{
+    max-width: 300px;
+}
+
+.banner-image img{
+    width: 100%;
+    border-radius: 20px;
+    /* border-bottom: 25px solid #374151; */
+    box-shadow: 5px 5px 10px #374151;
+    border: 25px solid #374151;
+
+}
