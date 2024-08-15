@@ -279,6 +279,120 @@
     font-weight: 400;  
 }
 
+/* Work Container */
+.work-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem 8.5rem;
+    background: #030712; 
+}
+
+.work-box{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    margin-bottom: 2rem;   
+
+}
+
+.work-image{
+    width: 45%;
+    background: rgb(51, 56, 64);
+    padding: 2rem 2rem;
+    border-radius: 20px 0px 0px 20px;
+  
+}
+
+.work-image2{
+    width: 45%;
+    background: rgb(51, 56, 64);
+    padding: 2rem 2rem;
+    border-radius: 0px 20px 20px 0px;  
+}
+
+.work-image3{
+    width: 45%;
+    background: rgb(51, 56, 64);
+    padding: 2rem 2rem;
+    border-radius: 0px 20px 20px 0px;  
+}
+
+.work-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.work-image2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.work-image3 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.work-text{
+    width: 45%;
+    background: rgb(67, 70, 76);
+    border-radius: 0px 20px 20px 0px;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.work-text2{
+    width: 45%;
+    background: rgb(67, 70, 76);
+    border-radius: 20px 0px 0px 20px;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.work-text3{
+    width: 45%;
+    background: rgb(67, 70, 76);
+    border-radius: 20px 0px 0px 20px;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+
+.work-text h3{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.work-text2 h3{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.work-text3 h3{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+
+.hero{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: justify;
+}
+
+
+
+
+
 
 
 
@@ -387,7 +501,54 @@
 }
 
 
+/* my-works container */
 
+.work-container{
+    padding: 1rem 1rem 1rem 1rem;  
+}
+
+.work-box{
+   flex-direction: column;  
+}
+
+.work-image{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 20px 20px 0px 0px;
+  
+}
+.work-image2{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.work-image3{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.work-text{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.work-text2{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.work-text3{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 20px 20px 0px 0px;
+
+}
 
 
 
