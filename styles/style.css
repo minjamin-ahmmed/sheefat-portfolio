@@ -107,7 +107,7 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 3rem 8.5rem 3rem 8.5rem;
-    background:#1f2937;
+    background:rgb(17, 24, 39);
 }
 
 .button-container{
@@ -142,7 +142,7 @@
     width: 100%;
     width: 100%;
     /* border-bottom: 25px solid #374151; */
-    box-shadow: -50px -30px 30px #374151;
+    box-shadow: -50px -50px 30px rgb(31, 41, 55);
     box-sizing: border-box;
 }
 
@@ -209,15 +209,75 @@
     gap: 100px;
 }
 
+/* experience-container styles*/
+.experience-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem 8.5rem 3rem 8.5rem;
+    background:rgb(17, 24, 39);
+    
+}
+
+.experience-header{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.experience-header h3{
+        margin-top: 20px;
+        font-size: 1.5rem;
+        color: rgb(143, 154, 175);
+        font-weight: 400;
+        text-align: center;                    
+}
+
+.experience-card{
+    width: 70%;
+    margin: 0 auto;
+    background: rgb(31, 41, 55);
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+}
+
+.heading{
+    list-style: none;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;  
+}
+
+.saf1{
+    font-size: 3rem;
+    font-family: monospace;
+    background: linear-gradient(90deg, #5603BD,  #FF0097);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700; 
+    margin-top: 4.5rem;
+}
 
 
 
+.dev-res{
+    margin-top: 2.5rem;
+    list-style: disc;
+    font-weight: 400;
+    color: rgb(109, 118, 134);
+    
+}
 
+.dev-res li{
+    margin-bottom: 1.25rem;
+}
 
-
-
-
-
+.date{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;  
+}
 
 
 
@@ -248,6 +308,10 @@
     width: 95%;
 }
 
+.banner-text h1{
+    text-align: start;
+    font-size: 3.8rem;
+}
 
 .banner-image{
     margin-left: 20%;
@@ -290,7 +354,7 @@
 /* Skills Container */
 
 .skills-container{
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .skill-text{
@@ -304,8 +368,27 @@
 
 .skill-content{
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
 }
+
+/* Experience Container */
+
+.experience-container{
+    padding: 1rem 1rem 1rem 1rem;  
+}
+
+.heading{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.saf1{
+    margin-top: 1rem;
+}
+
+
+
+
 
 
 
