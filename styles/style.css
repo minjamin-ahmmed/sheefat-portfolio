@@ -384,7 +384,7 @@
     font-weight: 700;
     margin-bottom: 1.25rem;
     color: transparent;
-    font-family: cursive;
+    font-family:fantasy;
     background: linear-gradient(90deg, #5603BD,  #FF0097);
     background-clip: text;
 }
@@ -395,7 +395,7 @@
     font-weight: 700;
     margin-bottom: 1.25rem;
     color: transparent;
-    font-family: cursive;
+    font-family:fantasy;
     background: linear-gradient(90deg, #5603BD,  #FF0097);
     background-clip: text;
 }
@@ -406,7 +406,7 @@
     font-weight: 700;
     margin-bottom: 1.25rem;
     color: transparent;
-    font-family: cursive;
+    font-family:fantasy;
     background: linear-gradient(90deg, #5603BD,  #FF0097);
     background-clip: text;
 }
@@ -417,9 +417,35 @@
     text-align: justify;
 }
 
+/* get in touch container */
+.get-in-touch-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem 8.5rem 3rem 8.5rem;
+    background:rgb(17, 24, 39);
+}
 
+.get-touch-content{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+    border-radius: 20px 0px 20px 0px;
+}
 
-
+.get-touch-content p{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.get-touch-content h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: transparent;
+    font-family: cursive;
+    background: linear-gradient(90deg, #5603BD,  #FF0097);
+    background-clip: text;
+}
 
 
 
@@ -448,6 +474,7 @@
 
 .banner-text{
     width: 95%;
+    text-align: justify;
 }
 
 .banner-text h1{
@@ -496,7 +523,7 @@
 /* Skills Container */
 
 .skills-container{
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 2rem 1.5rem 4rem 1.5rem;
 }
 
 .skill-text{
@@ -578,8 +605,29 @@
 
 }
 
+.work-image img{
+    border-radius: 10px;
+}
+
+.work-image2 img{
+    border-radius: 10px;
+}
+
+.work-image3 img{
+    border-radius: 10px;
+}
 
 
+/* get-in-touch styles */
+
+.get-in-touch-container{
+    padding: 1rem 1rem 1rem 1rem; 
+
+}
+
+.get-touch-content{
+    width: 80%;
+}
 
 
 }
